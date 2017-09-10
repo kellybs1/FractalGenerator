@@ -7,7 +7,7 @@ Written in C# using Visual Studio 2015.
 
 ### Build
 
-<a href="thing">/Builds/Fractals.exe</a>
+<a href="https://github.com/kellybs1/FractalGenerator/blob/master/Builds/Fractals.exe?raw=true">/Builds/Fractals.exe</a>
 
 Note: You may need to unblock the executable: Right click the exe -> Properties, and in the bottom section click the Unblock checkbox and then click OK.
 
@@ -15,7 +15,7 @@ Note: You may need to unblock the executable: Right click the exe -> Properties,
 
 ### Source
 
-<a href="https://github.com/kellybs1/GrayScott/tree/master/Fractals">/kellybs1Fractals</a>
+<a href="https://github.com/kellybs1/FractalGenerator/tree/master/kellybs1Fractals">/kellybs1Fractals</a>
 
 
 ### Screenshot
