@@ -32,6 +32,7 @@ namespace kellybs1Fractals
         //the Go button
         private void buttonGo_Click(object sender, EventArgs e)
         {
+            this.Cursor = Cursors.WaitCursor;
             clearCanvas();
             //get values from controls
             EFractalType chosenFractal = (EFractalType)comboBoxFractal.SelectedItem;
@@ -39,6 +40,7 @@ namespace kellybs1Fractals
             //create controller with form values
             FractalDisplayController fracController = new FractalDisplayController(mainCanvas, chosenFractal);
             fracController.RunFractal(depth);
+            this.Cursor = Cursors.Default;
         }
 
         //clears the canvas by filling with white
